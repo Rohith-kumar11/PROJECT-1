@@ -1,0 +1,44 @@
+make sure wamp is running
+
+in your browser set for {wamp default edge unless u changed it to chrome} php 
+go to 
+http://localhost/phpmyadmin/
+then click sql 
+
+Step 1 run this : 
+
+CREATE DATABASE u807410800_investment;
+use u807410800_investment;
+
+step 2 
+
+php my admin > import> import the sql file that u just downloaded name: u807410800_investment.sql
+
+step 3
+
+copy iapp to 
+
+c://wamp64/www/iapp
+
+step 4
+check your conn.php and make sure the credentials of 
+
+<?php
+
+$db_host = 'localhost'; // dont change
+$db_user = 'root'; // make sure this is same as ur phpmyadmin default is root
+$db_pass = 'root'; // if no psw leave blank 
+$db_name = 'u807410800_investment';  // dont change
+
+?>
+
+step 5
+
+login to localhost/iapp
+
+
+step 6 create an account for investor and entrepreneur.
+
+step 7 enjoy.
+
+dw ill deploy with in the internet by today evening this is 75% code last 25% is deployment
